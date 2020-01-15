@@ -7,6 +7,7 @@ TreeDomPy is an user-friendly tool to make blastP alignments, phylogenetic trees
 Python version: Python 3.x
 
 Modules: Tkinter, numpy, Bio, argparse, matplotlib, pylab and prettytable
+
 External programs: Blast and Muscle
 
 ## Usage
@@ -14,4 +15,7 @@ External programs: Blast and Muscle
 ```sh
 python main.py
 ```
-TreeDomPy can be run in UNIX and MAC systems with python 3.x. GUI is optimized for Tkinter in UNIX, weird aspects for main Tkinter window may be observed in MacOSX systems. 
+TreeDomPy can be run in UNIX and MAC systems with python 3.x. GUI is optimized for Tkinter in UNIX, weird aspects for main Tkinter window may be observed in MacOSX systems.
+
+## Input files
+TreeDomPy requieres genbank or several genbank files. It also requieres a fasta or multifasta file containing all the queries. The input files are loaded using the Browse button. Remember format of input files will be checked.
