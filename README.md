@@ -29,7 +29,10 @@ TreeDomPy requieres genbank or several genbank files. It also requieres a fasta 
 
 This files will be saved in the Data_TimeOfExperiment Folder.
 
-This program has been validated with several gbks and queries of bacteria (Escherichia coli, Salmonella enterica, Shigella dysenteriae and Yersinia pestis), animals (Mus musculus) and plants (Arabidopsis thaliana).
+This program has been validated with several gbks and queries of:
+  - Bacteria (Escherichia coli, Salmonella enterica, Shigella dysenteriae and Yersinia pestis)
+  - Animals (Mus musculus)
+  - Plants (Arabidopsis thaliana).
 
 ## Parameters
 TreeDomPy only needs two parameters: coverage and idenity cut-off values for blastP (e-value is set to 0.000001). They are chosen with a slider bar, once chosen they must be save. 
