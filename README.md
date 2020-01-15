@@ -5,6 +5,7 @@ TreeDomPy is an user-friendly tool to make blastP alignments, phylogenetic trees
 
 ## Requires
 Python version: Python 3.x
+
 Modules: Tkinter, numpy, Bio, argparse, matplotlib, pylab and prettytable
 External programs: Blast and Muscle
 
