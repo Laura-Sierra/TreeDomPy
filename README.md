@@ -43,17 +43,16 @@ TreeDomPy generates several files stored in the Results_TimeOfExperiment folder 
 
 It also generates 3 figures:
 1. BlastP Results Figure
-  -Where coverage is represented with bars and identity with a color scale (query is the red one).
-
-Remember if there are so many hits that you cannot see a clear figure, choose higher values for coverage and identity.
+  - Where coverage is represented with bars and identity with a color scale (query is the red one).
+  - Remember if there are so many hits that you cannot see a clear figure, choose higher values for coverage and identity.
 ![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/1_blast.png)
 2. Tree Figure
 
-If you want the figure to publish it in a paper but you do not like the colors of the figure. Run the program again. The colors are randomly generated. Therefore, you will have different designs for the same figure.
+  - If you want the figure to publish it in a paper but you do not like the colors of the figure. Run the program again. The colors are randomly generated. Therefore, you will have different designs for the same figure.
 ![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/2_tree.png)
 
 3. Domains Figure
 
-If you want the figure to publish it in a paper but you do not like the colors of the figure. Run the program again. The colors are randomly generated. Therefore, you will have different designs for the same figure.
+  - If you want the figure to publish it in a paper but you do not like the colors of the figure. Run the program again. The colors are randomly generated. Therefore, you will have different designs for the same figure.
 ![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/3_domains.png)
 
