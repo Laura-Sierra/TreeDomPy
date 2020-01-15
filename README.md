@@ -10,7 +10,7 @@ Modules: Tkinter, numpy, Bio, argparse, matplotlib, pylab and prettytable.
 
 External programs: Blast and Muscle.
 
-Prosite DataBase: As I had problems with prosite files provided I uploaded mine. You MUST unzip prosite.dat.zip it was too big to upload it as a normal file.
+Prosite DataBase: As I had problems with prosite files provided I uploaded mine. You MUST unzip prosite.dat.zip. It was too big to upload it as a normal file.
 
 prosite.doc is changed to prosite.txt and I delete some kind of \r at the end of a line, just that.
 
@@ -30,7 +30,7 @@ TreeDomPy requieres genbank or several genbank files. It also requieres a fasta 
 This files will be saved in the Data_TimeOfExperiment Folder.
 
 This program has been validated with several gbks and queries of:
-  - Bacteria (Escherichia coli, Salmonella enterica, Shigella dysenteriae and Yersinia pestis)
+  - Bacteria (Escherichia coli, Salmonella enterica, Shigella dysenteriae and Yersinia pestis). This four gbks are provided with a query of example (TestData Folder)
   - Animals (Mus musculus)
   - Plants (Arabidopsis thaliana).
 
