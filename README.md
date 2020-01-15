@@ -10,7 +10,7 @@ Modules: Tkinter, numpy, Bio, argparse, matplotlib, pylab and prettytable.
 
 External programs: Blast and Muscle.
 
-Prosite DataBase: As I had problems with prosite files provided I uploaded mine. 
+Prosite DataBase: As I had problems with prosite files provided I uploaded mine. You MUST unzip prosite.dat.zip it was too big to upload it as a normal file.
 
 prosite.doc is changed to prosite.txt and I delete some kind of \r at the end of a line, just that.
 
