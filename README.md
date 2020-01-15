@@ -61,3 +61,7 @@ It also generates 3 figures:
   - If you want the figure to publish it in a paper but you do not like the colors of the figure. Run the program again. The colors are randomly generated. Therefore, you will have different designs for the same domains-figure.
 ![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/3_domains.png)
 
+
+## Author
+LAURA SIERRA HERAS
+For any questions, feel free to contact me. 
