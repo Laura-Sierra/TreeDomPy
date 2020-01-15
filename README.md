@@ -29,6 +29,8 @@ TreeDomPy requieres genbank or several genbank files. It also requieres a fasta 
 
 This files will be saved in the Data_TimeOfExperiment Folder.
 
+This program has been validated with several gbks and queries of bacteria (Escherichia coli, Salmonella enterica, Shigella dysenteriae and Yersinia pestis), animals (Mus musculus) and plants (Arabidopsis thaliana).
+
 ## Parameters
 TreeDomPy only needs two parameters: coverage and idenity cut-off values for blastP (e-value is set to 0.000001). They are chosen with a slider bar, once chosen they must be save. 
 
@@ -43,7 +45,7 @@ TreeDomPy generates several files stored in the Results_TimeOfExperiment folder 
 
 It also generates 3 figures:
 1. BlastP Results Figure
-  - Where coverage is represented with bars and identity with a color scale (query is the red one).
+  - The coverage is represented with bars and identity with a color scale (query is the red one).
   - Remember if there are so many hits that you cannot see a clear figure, choose higher values for coverage and identity.
 ![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/1_blast.png)
 2. Tree Figure
