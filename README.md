@@ -43,8 +43,7 @@ TreeDomPy generates several files stored in the Results_TimeOfExperiment folder 
 
 It also generates 3 figures:
 1. BlastP Results Figure
-
-Where coverage is represented with bars and identity with a color scale (query is the red one).
+  -Where coverage is represented with bars and identity with a color scale (query is the red one).
 
 Remember if there are so many hits that you cannot see a clear figure, choose higher values for coverage and identity.
 ![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/1_blast.png)
