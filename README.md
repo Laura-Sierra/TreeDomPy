@@ -14,8 +14,8 @@ Prosite DataBase: As I had problems with prosite files provided I uploaded mine.
 
 prosite.doc is changed to prosite.txt and I delete some kind of \r at the end of a line, just that.
 
-I know that the best way to proceed would have been to make a file with the patterns as required by the re module (since there are slight changes to those of prosite database) so as not to make those changes every time I use the domain parser, but I though that in this way, I can show how the conversion is made (prosite pattern -> re pattern).
-And I do not modify prosite database, in case the user wants to add something to the program.
+I know that the best way to proceed would have been to make a file with the patterns as required by the re module (since there are slight changes to those of prosite database) so as not to make those changes every time I use the domain parser. But I though that in this way, I can show how the conversion is made (prosite pattern -> re pattern).
+And I provide the original prosite database, in case the user wants to add something to the program.
 
 ## Usage
 
@@ -27,7 +27,26 @@ TreeDomPy can be run in UNIX and MAC systems with python 3.x. GUI is optimized f
 ## Input files
 TreeDomPy requieres genbank or several genbank files. It also requieres a fasta or multifasta file containing all the queries. The input files are loaded using the Browse button. Remember format of input files will be checked.
 
+This files will be saved in the Data_TimeOfExperiment Folder.
+
 ## Parameters
 TreeDomPy only needs two parameters: coverage and idenity cut-off values for blastP (e-value is set to 0.000001). They are chosen with a slider bar, once chosen they must be save. 
 
 ## Output
+TreeDomPy generates several files stored in the Results_TimeOfExperiment folder (in case there are several queries, they are ordered by query)
+1. gbk_multi.fasta: fasta file from your gbk(s).
+2. blast_hits.tsv: blast results with your preferences of identity and coverage.
+3. blast_hits.fasta: fasta of the hits.
+4. domains_hits.txt: hits domains and its explanation.
+5. muscle_results.fasta: hits alignment with muscle.
+6. tree.nwx: NJ-tree.
+
+It also generates 3 figures:
+1. BlastP Results Figure
+![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/1_blast.png)
+2. Tree Figure
+![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/2_tree.png)
+3. Domains Figure
+![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/3_domains.png)
+
+
