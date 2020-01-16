@@ -35,7 +35,7 @@ This program has been validated with several gbks and queries of:
   - Plants (Arabidopsis thaliana).
 
 ## Parameters
-TreeDomPy only needs two parameters: coverage and idenity cut-off values for blastP (e-value is set to 0.000001). They are chosen with a slider bar, once chosen they must be save. 
+TreeDomPy only needs two parameters: coverage and idenity cut-off values for blastP (e-value is set to 0.000001). They are chosen with a slider bar, once chosen they must be saved. 
 
 ## Output
 TreeDomPy generates several files stored in the Results_TimeOfExperiment folder (in case there are several queries, they are ordered by query)
