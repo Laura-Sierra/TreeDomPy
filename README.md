@@ -47,7 +47,7 @@ TreeDomPy generates several files stored in the Results_TimeOfExperiment folder 
 6. tree.nwx: NJ-tree.
 
 TreeDomPy also generates 3 figures.
-Remember to save the figures you like. You must close figures so that the programa could follow its workflow.
+Remember to save the figures you like. You must close figures so that the programa could continue with its workflow.
 1. BlastP Results Figure
   - The coverage is represented with bars and identity with a color scale (query is the red one).
   - Remember if there are so many hits that you cannot see a clear figure, choose higher values for coverage and identity.
