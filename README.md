@@ -46,7 +46,7 @@ TreeDomPy generates several files stored in the Results_TimeOfExperiment folder 
 5. muscle_results.fasta: hits alignment with muscle.
 6. tree.nwx: NJ-tree.
 
-It also generates 3 figures:
+It also generates 3 figures.
 Remember to save the figures you like. You must close figures so that the programa could follow its workflow.
 1. BlastP Results Figure
   - The coverage is represented with bars and identity with a color scale (query is the red one).
