@@ -5,16 +5,11 @@ TreeDomPy is an user-friendly tool to make blastP alignments, phylogenetic trees
 
 Note: If you feel as though the program is not working. Please, be patient, some processes take a while to compute. In case there is a problem, an error window will immediately appear.
 ## Requirements
-Python version: Python 3.x.
-
-Modules: Tkinter, numpy, Bio, argparse, matplotlib, pylab and prettytable.
-
-External programs: Blast and Muscle.
-
-Prosite DataBase: As I had problems with prosite files provided I uploaded mine. You must unzip prosite.dat.zip. It was too big to upload it as a normal file.
-
+  - Python version: Python 3.x.
+  - Modules: Tkinter, numpy, Bio, argparse, matplotlib, pylab and prettytable.
+  - External programs: Blast and Muscle.
+  - Prosite DataBase: As I had problems with prosite files provided I uploaded mine. You must unzip prosite.dat.zip. It was too big to upload it as a normal file.
 prosite.doc is changed to prosite.txt and I delete some kind of \r at the end of a line, just that.
-
 I know that the best way to proceed would have been to make a file with the patterns as required by the re module (since there are slight changes with those of prosite database) so as not to make those changes every time I use the domain parser. But I though that in this way, I can show how the conversion is made (prosite pattern -> re pattern).
 And I provide the original prosite database, in case the user wants to add something to the program.
 
@@ -43,7 +38,7 @@ TreeDomPy generates several files stored in the Results_TimeOfExperiment folder 
 1. gbk_multi.fasta: fasta file from your gbk(s).
 2. blast_hits.tsv: blast results with your preferences of identity and coverage.
 3. blast_hits.fasta: fasta of the hits.
-4. domains_hits.txt: hits domains and its explanation. We strongly recommend to open this file with Visual Studio Code. Because when the names of the domains are too large, in regular editors the table looks awful.
+4. domains_hits.txt: hits domains and its explanation. We strongly recommend to open this file with Visual Studio Code, because when the names of the domains are too large, in regular editors the table looks awful.
 5. muscle_results.fasta: hits alignment with muscle.
 6. tree.nwx: NJ-tree.
 
