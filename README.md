@@ -2,6 +2,7 @@
 TreeDomPy is an user-friendly tool to make blastP alignments, phylogenetic trees and to annotate domains using Python and a Tkinter graphical interface.
 
 ![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/0_window.png)
+
 Note: If you feel as though the program is not working. Please, be patient, some processes take a while to compute. In case there is a problem, an error window will immediately appear.
 ## Requirements
 Python version: Python 3.x.
