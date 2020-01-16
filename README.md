@@ -1,5 +1,5 @@
 # TreeDomPy
-TreeDomPy is an user-friendly tool to make blastP alignments, phylogenetic trees and to annotate domains using a Tkinter graphical interface.
+TreeDomPy is an user-friendly tool to make blastP alignments, phylogenetic trees and to annotate domains using Python and a Tkinter graphical interface.
 
 ![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/0_window.png)
 
@@ -10,7 +10,7 @@ Modules: Tkinter, numpy, Bio, argparse, matplotlib, pylab and prettytable.
 
 External programs: Blast and Muscle.
 
-Prosite DataBase: As I had problems with prosite files provided I uploaded mine. You MUST unzip prosite.dat.zip. It was too big to upload it as a normal file.
+Prosite DataBase: As I had problems with prosite files provided I uploaded mine. You must unzip prosite.dat.zip. It was too big to upload it as a normal file.
 
 prosite.doc is changed to prosite.txt and I delete some kind of \r at the end of a line, just that.
 
@@ -65,4 +65,4 @@ It also generates 3 figures:
 ## Author
 LAURA SIERRA HERAS
 
-For any questions, feel free to contact me. 
+For any questions, feel free to contact me.
