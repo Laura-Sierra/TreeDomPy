@@ -37,7 +37,7 @@ TreeDomPy generates several files stored in the Results_TimeOfExperiment folder 
 1. gbk_multi.fasta: fasta file from your gbk(s).
 2. blast_hits.tsv: blast results with your preferences of identity and coverage.
 3. blast_hits.fasta: fasta of the hits.
-4. domains_hits.txt: hits domains and its explanation. We strongly recommend to open this file with Visual Studio Code, because when the names of the domains are too large, in regular editors the table looks awful.
+4. domains_hits.txt: hits domains and its explanation (at the bottom, you will find detail information of all the domains detected). We strongly recommend to open this file with Visual Studio Code, because when the names of the domains are too large, in regular editors the table looks awful.
 5. muscle_results.fasta: hits alignment with muscle.
 6. tree.nwx: NJ-tree.
 
