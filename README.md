@@ -50,7 +50,7 @@ Remember to save the figures you like. You must close figures so that the progra
 2. Tree Figure
 
   - If you want the figure to publish it in a paper but you do not like the colors of the figure. Run the program again. The colors are randomly generated. Therefore, you will have different designs for the same tree-figure.
-  - With some inputs I found negative branches but I decided not to change them as they are the results that muscle provides.
+  - With some inputs I found negative branches, but I decided not to change them as they are the results that muscle provides.
 ![alt text](https://github.com/Laura-Sierra/TreeDomPy/blob/master/images/2_NJtree.png)
 
 3. Domains Figure
