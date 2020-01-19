@@ -248,7 +248,7 @@ Blast, tree and domains."""
                     if os.path.exists("tree.nwx"):
                         plotter.make_tree(self.gbk_list) # Plot tree
                     else: # Muscle only generates tree file if there are at least 3 sequences, in case they are less we tell the user why we cannot show the tree.
-                        tkinter.messagebox.showwarning("Warning", "Zero or one hit detected.\nIt is not possible to make a tree of one or two sequences.\nPress OK to see the domains of the sequences.")
+                        tkinter.messagebox.showwarning("Warning", "Zero hits detected.\nIt is not possible to make a tree of one sequence.\nPress OK to see the domains of the sequences.")
                     plotter.make_domains(dict_to_plot,max_seq_len,pattern_list) # Plot Domains
                     
                     # Organize data and results files 
