@@ -50,7 +50,7 @@ Remember to save the figures you like. You must close figures so that the progra
 2. Tree Figure
 
   - If you want the figure to publish it in a paper but you do not like the colors of the figure. Run the program again. The colors are randomly generated. Therefore, you will have different designs for the same tree-figure.
-![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/2_tree.png)
+![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/2_tre.png)
 
 3. Domains Figure
 
