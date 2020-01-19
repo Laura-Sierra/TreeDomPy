@@ -8,7 +8,7 @@ Note: If you feel as though the program is not working. Please, be patient, some
   - Python version: Python 3.x.
   - Modules: Tkinter, numpy, Bio, argparse, matplotlib, pylab and prettytable.
   - External programs: Blast and Muscle.
-  - Prosite DataBase: As I had problems with prosite files provided I uploaded mine. You must unzip prosite.dat.zip. It was too big to upload it as a normal file. Change: prosite.doc to prosite.txt and deletion of some kind of \r at the end of a line, just that.
+  - Prosite DataBase: As I had problems with prosite files provided I uploaded mine. Change: prosite.doc to prosite.txt and deletion of some kind of \r at the end of a line, just that. You must unzip prosite.dat.zip (there is a warning message in case you do not do it). It was too big to upload it as a normal file.
 
 I know that the best way to proceed would have been to make a file with the patterns as required by the re module (since there are slight changes with those of prosite database) so as not to make those changes every time I use the domain parser. But I though that in this way, I can show how the conversion is made (prosite pattern -> re pattern) and I provide the original prosite database, just in case the user wants to add something to the program.
 
