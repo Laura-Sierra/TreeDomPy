@@ -57,8 +57,7 @@ Remember to save the figures you like. You must close figures so that the progra
   - If you want the figure to publish it in a paper but you do not like the colors of the figure. Run the program again. The colors are randomly generated. Therefore, you will have different designs for the same domains-figure.
 ![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/3_domains.png)
 
-![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/3_domains.png)
-![alt text](https://raw.githubusercontent.com/Laura-Sierra/TreeDomPy/images/2_treeNJ.png)
+
 ## Author
 LAURA SIERRA HERAS
 
