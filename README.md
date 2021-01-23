@@ -22,10 +22,10 @@ TreeDomPy can be run in UNIX and MAC systems with python 3.x. GUI is optimized f
 ## Input files
 TreeDomPy requieres genbank or several genbank files. It also requieres a fasta or multifasta file containing all the queries. The input files are loaded using the Browse button. Remember format of input files will be checked.
 
-This files will be saved in the Data_TimeOfExperiment Folder.
+These files will be saved in the Data_TimeOfExperiment Folder.
 
 This program has been validated with several gbks and queries of:
-  - Bacteria (Escherichia coli, Salmonella enterica, Shigella dysenteriae and Yersinia pestis). This four gbks are provided with a query of example (TestData Folder)
+  - Bacteria (Escherichia coli, Salmonella enterica, Shigella dysenteriae and Yersinia pestis). These four gbks are provided with a query of example (TestData Folder)
   - Animals (Mus musculus)
   - Plants (Arabidopsis thaliana).
 
@@ -42,7 +42,7 @@ TreeDomPy generates several files stored in the Results_TimeOfExperiment folder 
 6. tree.nwx: NJ-tree.
 
 TreeDomPy also generates 3 figures.
-Remember to save the figures you like. You must close figures so that the programa could continue with its workflow.
+Remember:Save the figures you like. The, you must close figures so that the programa could continue with its workflow.
 1. BlastP Results Figure
   - The coverage is represented with bars and identity with a color scale (query is the red one).
   - Remember if there are so many hits that you cannot see a clear figure, choose higher values for coverage and identity.
